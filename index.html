@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Guild Wars 2 Timer</title>
+
+	<link href="timer.css" rel="stylesheet">
+
+	<script src="jquery.min.js"></script>
+	<script src="timer.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+<div class="container">
+	<div id="table-worldboss">
+		<div class="row table-header">
+			<div class="col-1" id="wbname-div">
+				<span id="wbname-title"></span>
+			</div>
+			<div class="col-2" id="wbmap-div">
+				<span id="wbmap-title"></span>
+				<span class="table-sub-header"></span>
+			</div>
+			<div class="col-3" id="localtime-div">
+				<span id="localtime-title"></span>
+				<span id="nowtimezone" class="table-sub-header"></span>
+				<span id="nowtime"></span>
+				<span id="utctime-title"></span>
+			</div>
+			<div class="col-4" id="waypoint-div">
+				<span id="waypoint-title"></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

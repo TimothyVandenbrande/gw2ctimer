@@ -1,0 +1,10 @@
+{
+	"en":{
+		"lang-name":"English",
+		"wbname-title":"World Boss",
+		"wbmap-title":"Zone",
+		"localtime-title":"Spawn Time",
+		"utctime-title":"Server Time",
+		"waypoint-title":"Waypoint"
+	}
+}
